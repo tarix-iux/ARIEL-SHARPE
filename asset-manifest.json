@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/ARIEL-SHARPE/static/css/main.8baec87a.css",
-    "main.js": "/ARIEL-SHARPE/static/js/main.7e255c04.js",
+    "main.css": "/ARIEL-SHARPE/static/css/main.21a6deeb.css",
+    "main.js": "/ARIEL-SHARPE/static/js/main.5c21df1c.js",
     "static/js/453.a8735076.chunk.js": "/ARIEL-SHARPE/static/js/453.a8735076.chunk.js",
     "static/media/fondo.jpg": "/ARIEL-SHARPE/static/media/fondo.b043cd967d32828a0892.jpg",
     "index.html": "/ARIEL-SHARPE/index.html",
-    "main.8baec87a.css.map": "/ARIEL-SHARPE/static/css/main.8baec87a.css.map",
-    "main.7e255c04.js.map": "/ARIEL-SHARPE/static/js/main.7e255c04.js.map",
+    "main.21a6deeb.css.map": "/ARIEL-SHARPE/static/css/main.21a6deeb.css.map",
+    "main.5c21df1c.js.map": "/ARIEL-SHARPE/static/js/main.5c21df1c.js.map",
     "453.a8735076.chunk.js.map": "/ARIEL-SHARPE/static/js/453.a8735076.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8baec87a.css",
-    "static/js/main.7e255c04.js"
+    "static/css/main.21a6deeb.css",
+    "static/js/main.5c21df1c.js"
   ]
 }
