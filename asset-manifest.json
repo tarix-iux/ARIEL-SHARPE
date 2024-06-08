@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/tarix-iux/static/css/main.f855e6bc.css",
-    "main.js": "/tarix-iux/static/js/main.42a3c8ba.js",
-    "static/js/453.a8735076.chunk.js": "/tarix-iux/static/js/453.a8735076.chunk.js",
-    "static/media/logo.svg": "/tarix-iux/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
-    "index.html": "/tarix-iux/index.html",
-    "main.f855e6bc.css.map": "/tarix-iux/static/css/main.f855e6bc.css.map",
-    "main.42a3c8ba.js.map": "/tarix-iux/static/js/main.42a3c8ba.js.map",
-    "453.a8735076.chunk.js.map": "/tarix-iux/static/js/453.a8735076.chunk.js.map"
+    "main.css": "/ARIEL-SHARPE/static/css/main.f855e6bc.css",
+    "main.js": "/ARIEL-SHARPE/static/js/main.5dad28cc.js",
+    "static/js/453.a8735076.chunk.js": "/ARIEL-SHARPE/static/js/453.a8735076.chunk.js",
+    "static/media/logo.svg": "/ARIEL-SHARPE/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/ARIEL-SHARPE/index.html",
+    "main.f855e6bc.css.map": "/ARIEL-SHARPE/static/css/main.f855e6bc.css.map",
+    "main.5dad28cc.js.map": "/ARIEL-SHARPE/static/js/main.5dad28cc.js.map",
+    "453.a8735076.chunk.js.map": "/ARIEL-SHARPE/static/js/453.a8735076.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f855e6bc.css",
-    "static/js/main.42a3c8ba.js"
+    "static/js/main.5dad28cc.js"
   ]
 }
