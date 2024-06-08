@@ -1,14 +1,19 @@
+h1, h2, h3, h4, p {
+  margin: 0;
+  padding: 0;
+}
+
 body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background-color: #292929;
+  background-color: #f3f1f1;
 }
 
 .header {
   background-image: url(../public/fondo.jpg);
-  min-height: 60vh;
+  min-height: 70vh;
   background-repeat: no-repeat; /* Evita que la imagen se repita */
   background-size: cover; /* Asegura que la imagen cubra todo el header */
   background-position: 50% 0%;
@@ -19,7 +24,34 @@ body {
   flex-direction: column
 }
 
-h1 {
+.navbar{
+  background-color: #e2e2e2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 8vh;
+}
+
+.navbar input{
+  height: 5vh;
+  width: 40vw;
+  border-radius: 2.5vh;
+  border: none;
+  font-size: 1rem;
+  padding-left: 1vw;
+  padding-right: 1vw;
+}
+
+.navbar p {
+  margin-left: 1vw;
+}
+
+.navbar div a{
+  margin-right: 1vw;
+}
+
+.header h1 {
   color: #292929;
   font-size: 4rem;
   margin-bottom: 0;
@@ -31,20 +63,35 @@ h3 {
   font-size: 1.7rem;
 }
 
-ul {
-  list-style-type: none;
-  padding: 0;
+.postgrup {
+  margin-top: 5vh;
+  margin-left: 10vw;
+  margin-right: 10vw;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 columnas de igual ancho */
+  gap: 5vw;
 }
 
-li {
-  margin: 10px 0;
+.postcard {
+  border-radius: 1vw;
+  background-color: #e2e2e2;
+  min-height: 55vh;
 }
 
-a {
-  text-decoration: none;
-  color: #007bff;
+.postcard div, p {
+  padding-inline: 0.5vw;
 }
 
-a:hover {
-  text-decoration: underline;
+.postcard div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.postcard img {
+  border-top-left-radius: 1vw;
+  border-top-right-radius: 1vw;
+  width: 100%;
+  height: auto; /* Mantiene la proporción de la imagen */
+  display: block; /* Elimina el espacio inferior de las imágenes */
 }

@@ -1,6 +1,7 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
-
+import Header from '../components/Header'; 
+import NavBar from '../components/NavBar';
+import PostGrup from '../components/PostGrup'; 
 function Home() {
   const posts = [
     { id: 1, title: "Post 1", content: "This is the first post." },
@@ -9,12 +10,9 @@ function Home() {
 
   return (
     <div>
-        <div className='header'>
-            <h1>ARIEL SHARPE</h1>
-            <h3>student nerd</h3>
-        </div>
-      <p>nothing to see yet</p>
-      
+        <NavBar />
+        <Header />
+        <PostGrup />
     </div>
   );
 }
